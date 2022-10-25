@@ -1,0 +1,82 @@
+{
+   "type": "object",
+   "properties": {
+      "p1": {
+         "type": [
+            "integer",
+            "null"
+         ]
+      },
+      "p2": {
+         "type": [
+            "number",
+            "null"
+         ]
+      },
+      "p3": {
+         "type": [
+            "string",
+            "null"
+         ]
+      },
+      "p4": {
+         "type": [
+            "boolean",
+            "null"
+         ]
+      },
+      "p5": {
+         "type": [
+            "string",
+            "null"
+         ],
+         "format": "date-time"
+      },
+      "p6": {
+         "type": [
+            "object",
+            "null"
+         ],
+         "properties": {
+            "p6_1": {
+               "type": [
+                  "number",
+                  "null"
+               ]
+            },
+            "p6_2": {
+               "type": [
+                  "array",
+                  "null"
+               ],
+               "items": {
+                  "type": [
+                     "string",
+                     "null"
+                  ]
+               }
+            }
+         }
+      },
+      "p7": {
+         "type": [
+            "array",
+            "null"
+         ],
+         "items": {
+            "type": [
+               "object",
+               "null"
+            ],
+            "properties": {
+               "p7_1": {
+                  "type": [
+                     "integer",
+                     "null"
+                  ]
+               }
+            }
+         }
+      }
+   }
+}
